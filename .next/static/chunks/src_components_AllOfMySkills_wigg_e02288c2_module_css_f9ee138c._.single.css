@@ -1,0 +1,27 @@
+/* [project]/src/components/AllOfMySkills/wigg_e02288c2.module.css [app-client] (css) */
+@font-face {
+  font-family: wigg;
+  src: url("../media/Wigglye-s.p.d4275789.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: wigg Fallback;
+  src: local(Arial);
+  ascent-override: 111.69%;
+  descent-override: 31.48%;
+  line-gap-override: 3.02%;
+  size-adjust: 79.42%;
+}
+
+.wigg_e02288c2-module__i0TrHG__className {
+  font-family: wigg, wigg Fallback;
+}
+
+.wigg_e02288c2-module__i0TrHG__variable {
+  --font-super-marker: "wigg", "wigg Fallback";
+}
+
+/*# sourceMappingURL=src_components_AllOfMySkills_wigg_e02288c2_module_css_f9ee138c._.single.css.map*/

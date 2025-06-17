@@ -1,0 +1,27 @@
+/* [project]/src/components/AllOfMySkills/wiggly_74c7702d.module.css [app-client] (css) */
+@font-face {
+  font-family: wiggly;
+  src: url("../media/Wigglye-s.p.d4275789.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: wiggly Fallback;
+  src: local(Arial);
+  ascent-override: 111.69%;
+  descent-override: 31.48%;
+  line-gap-override: 3.02%;
+  size-adjust: 79.42%;
+}
+
+.wiggly_74c7702d-module__p5rpYW__className {
+  font-family: wiggly, wiggly Fallback;
+}
+
+.wiggly_74c7702d-module__p5rpYW__variable {
+  --font-wiggly: "wiggly", "wiggly Fallback";
+}
+
+/*# sourceMappingURL=src_components_AllOfMySkills_wiggly_74c7702d_module_css_f9ee138c._.single.css.map*/

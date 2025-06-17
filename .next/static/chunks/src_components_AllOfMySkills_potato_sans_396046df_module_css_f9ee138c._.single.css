@@ -1,0 +1,27 @@
+/* [project]/src/components/AllOfMySkills/potato_sans_396046df.module.css [app-client] (css) */
+@font-face {
+  font-family: Potato_sans;
+  src: url("../media/Potato_sans_Black-s.p.850b1c25.otf") format("opentype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Potato_sans Fallback;
+  src: local(Arial);
+  ascent-override: 66.03%;
+  descent-override: 11.19%;
+  line-gap-override: 7.87%;
+  size-adjust: 114.34%;
+}
+
+.potato_sans_396046df-module__Ja1oNW__className {
+  font-family: Potato_sans, Potato_sans Fallback;
+}
+
+.potato_sans_396046df-module__Ja1oNW__variable {
+  --font-potato_sans: "Potato_sans", "Potato_sans Fallback";
+}
+
+/*# sourceMappingURL=src_components_AllOfMySkills_potato_sans_396046df_module_css_f9ee138c._.single.css.map*/

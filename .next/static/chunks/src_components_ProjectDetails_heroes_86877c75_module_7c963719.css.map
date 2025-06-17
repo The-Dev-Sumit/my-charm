@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["file:///C:/AProjects/mycharm/src/components/ProjectDetails/heroes_86877c75.module.css"],"sourcesContent":["@font-face {\n    font-family: 'heroes';\n    src: url('@vercel/turbopack-next/internal/font/local/font?{%22path%22:%22../../../public/fonts/Heroes%20Legend.ttf%22,%22preload%22:true,%22has_size_adjust%22:true}') format('truetype');\n    font-display: swap;\n    font-weight: 400;font-style: normal;\n}\n\n@font-face {\n    font-family: 'heroes Fallback';\n    src: local(\"Arial\");\n    ascent-override: 400.21%;\ndescent-override: 97.49%;\nline-gap-override: 51.78%;\nsize-adjust: 20.94%;\n\n}\n\n.className {\n    font-family: 'heroes', 'heroes Fallback';\n    \n}\n.variable {\n    --font-badab: 'heroes', 'heroes Fallback';\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;;AAOA;;;;;;;;;AAUA;;;;AAIA","debugId":null}}]
+}

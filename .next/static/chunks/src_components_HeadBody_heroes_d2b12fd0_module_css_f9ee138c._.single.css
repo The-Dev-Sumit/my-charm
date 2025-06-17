@@ -1,0 +1,27 @@
+/* [project]/src/components/HeadBody/heroes_d2b12fd0.module.css [app-client] (css) */
+@font-face {
+  font-family: heroes;
+  src: url("../media/Heroes Legend-s.p.ad8549e8.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: heroes Fallback;
+  src: local(Arial);
+  ascent-override: 400.21%;
+  descent-override: 97.49%;
+  line-gap-override: 51.78%;
+  size-adjust: 20.94%;
+}
+
+.heroes_d2b12fd0-module___h6yzG__className {
+  font-family: heroes, heroes Fallback;
+}
+
+.heroes_d2b12fd0-module___h6yzG__variable {
+  --font-kg-happy: "heroes", "heroes Fallback";
+}
+
+/*# sourceMappingURL=src_components_HeadBody_heroes_d2b12fd0_module_css_f9ee138c._.single.css.map*/

@@ -1,0 +1,27 @@
+/* [project]/src/components/ProjectDetails/wingly_b97cbeb3.module.css [app-client] (css) */
+@font-face {
+  font-family: wingly;
+  src: url("../media/Wigglye-s.p.d4275789.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: wingly Fallback;
+  src: local(Arial);
+  ascent-override: 111.69%;
+  descent-override: 31.48%;
+  line-gap-override: 3.02%;
+  size-adjust: 79.42%;
+}
+
+.wingly_b97cbeb3-module__mzx5LW__className {
+  font-family: wingly, wingly Fallback;
+}
+
+.wingly_b97cbeb3-module__mzx5LW__variable {
+  --font-wingly: "wingly", "wingly Fallback";
+}
+
+/*# sourceMappingURL=src_components_ProjectDetails_wingly_b97cbeb3_module_css_f9ee138c._.single.css.map*/

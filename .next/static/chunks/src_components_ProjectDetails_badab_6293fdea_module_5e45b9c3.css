@@ -1,0 +1,28 @@
+/* [project]/src/components/ProjectDetails/badab_6293fdea.module.css [app-client] (css) */
+@font-face {
+  font-family: badab;
+  src: url("../media/BADABB-s.p.b215e3d9.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: badab Fallback;
+  src: local(Arial);
+  ascent-override: 106.71%;
+  descent-override: 21.84%;
+  line-gap-override: 0.0%;
+  size-adjust: 82.73%;
+}
+
+.badab_6293fdea-module__1N0AZa__className {
+  font-family: badab, badab Fallback;
+}
+
+.badab_6293fdea-module__1N0AZa__variable {
+  --font-badab: "badab", "badab Fallback";
+}
+
+
+/*# sourceMappingURL=src_components_ProjectDetails_badab_6293fdea_module_5e45b9c3.css.map*/

@@ -1,0 +1,27 @@
+/* [project]/src/components/AllOfMySkills/sup_ce0af130.module.css [app-client] (css) */
+@font-face {
+  font-family: sup;
+  src: url("../media/Potato_sans_Black-s.p.850b1c25.otf") format("opentype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: sup Fallback;
+  src: local(Arial);
+  ascent-override: 66.03%;
+  descent-override: 11.19%;
+  line-gap-override: 7.87%;
+  size-adjust: 114.34%;
+}
+
+.sup_ce0af130-module__Fxi5_G__className {
+  font-family: sup, sup Fallback;
+}
+
+.sup_ce0af130-module__Fxi5_G__variable {
+  --font-potato_sans: "sup", "sup Fallback";
+}
+
+/*# sourceMappingURL=src_components_AllOfMySkills_sup_ce0af130_module_css_f9ee138c._.single.css.map*/

@@ -1,0 +1,27 @@
+/* [project]/src/components/HeadBody/supermarker_5f6f47d9.module.css [app-client] (css) */
+@font-face {
+  font-family: superMarker;
+  src: url("../media/SuperBlackMarker-s.p.b3927d53.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: superMarker Fallback;
+  src: local(Arial);
+  ascent-override: 87.98%;
+  descent-override: 22.27%;
+  line-gap-override: 0.0%;
+  size-adjust: 108.2%;
+}
+
+.supermarker_5f6f47d9-module__RET_5G__className {
+  font-family: superMarker, superMarker Fallback;
+}
+
+.supermarker_5f6f47d9-module__RET_5G__variable {
+  --font-superMarker: "superMarker", "superMarker Fallback";
+}
+
+/*# sourceMappingURL=src_components_HeadBody_supermarker_5f6f47d9_module_css_f9ee138c._.single.css.map*/

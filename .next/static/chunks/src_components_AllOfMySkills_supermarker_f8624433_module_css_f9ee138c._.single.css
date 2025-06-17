@@ -1,0 +1,27 @@
+/* [project]/src/components/AllOfMySkills/supermarker_f8624433.module.css [app-client] (css) */
+@font-face {
+  font-family: SuperMarker;
+  src: url("../media/Wigglye-s.p.d4275789.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SuperMarker Fallback;
+  src: local(Arial);
+  ascent-override: 111.69%;
+  descent-override: 31.48%;
+  line-gap-override: 3.02%;
+  size-adjust: 79.42%;
+}
+
+.supermarker_f8624433-module__SJkbtq__className {
+  font-family: SuperMarker, SuperMarker Fallback;
+}
+
+.supermarker_f8624433-module__SJkbtq__variable {
+  --font-super-marker: "SuperMarker", "SuperMarker Fallback";
+}
+
+/*# sourceMappingURL=src_components_AllOfMySkills_supermarker_f8624433_module_css_f9ee138c._.single.css.map*/

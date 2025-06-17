@@ -1,0 +1,27 @@
+/* [project]/src/components/AllOfMySkills/supermarker_ec567baa.module.css [app-client] (css) */
+@font-face {
+  font-family: SuperMarker;
+  src: url("../media/Potato_sans_Black-s.p.850b1c25.otf") format("opentype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SuperMarker Fallback;
+  src: local(Arial);
+  ascent-override: 66.03%;
+  descent-override: 11.19%;
+  line-gap-override: 7.87%;
+  size-adjust: 114.34%;
+}
+
+.supermarker_ec567baa-module__Ob4pvq__className {
+  font-family: SuperMarker, SuperMarker Fallback;
+}
+
+.supermarker_ec567baa-module__Ob4pvq__variable {
+  --font-potato_sans: "SuperMarker", "SuperMarker Fallback";
+}
+
+/*# sourceMappingURL=src_components_AllOfMySkills_supermarker_ec567baa_module_css_f9ee138c._.single.css.map*/

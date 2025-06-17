@@ -1,0 +1,163 @@
+/* [project]/src/app/adventurefont_c8853632.module.css [app-client] (css) */
+@font-face {
+  font-family: adventureFont;
+  src: url("../media/Adventure-s.p.134b21c0.woff2") format("woff2");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: adventureFont Fallback;
+  src: local(Arial);
+  ascent-override: 112.44%;
+  descent-override: 21.26%;
+  line-gap-override: 0.0%;
+  size-adjust: 94.19%;
+}
+
+.adventurefont_c8853632-module__G5BeVa__className {
+  font-family: adventureFont, adventureFont Fallback;
+}
+
+.adventurefont_c8853632-module__G5BeVa__variable {
+  --font-adventure: "adventureFont", "adventureFont Fallback";
+}
+
+
+/* [project]/src/components/HeadBody/heroes_e51c7c29.module.css [app-client] (css) */
+@font-face {
+  font-family: heroes;
+  src: url("../media/Heroes Legend-s.p.ad8549e8.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: heroes Fallback;
+  src: local(Arial);
+  ascent-override: 400.21%;
+  descent-override: 97.49%;
+  line-gap-override: 51.78%;
+  size-adjust: 20.94%;
+}
+
+.heroes_e51c7c29-module__9tn23a__className {
+  font-family: heroes, heroes Fallback;
+}
+
+.heroes_e51c7c29-module__9tn23a__variable {
+  --font-heroes: "heroes", "heroes Fallback";
+}
+
+
+/* [project]/src/components/HeadBody/supermarker_3a4f0d54.module.css [app-client] (css) */
+@font-face {
+  font-family: superMarker;
+  src: url("../media/SuperBlackMarker-s.p.b3927d53.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: superMarker Fallback;
+  src: local(Arial);
+  ascent-override: 87.98%;
+  descent-override: 22.27%;
+  line-gap-override: 0.0%;
+  size-adjust: 108.2%;
+}
+
+.supermarker_3a4f0d54-module__wXx6wa__className {
+  font-family: superMarker, superMarker Fallback;
+}
+
+.supermarker_3a4f0d54-module__wXx6wa__variable {
+  --font-superMarker: "superMarker", "superMarker Fallback";
+}
+
+
+/* [project]/src/components/LandingView/potato_sans_9dffb9d9.module.css [app-client] (css) */
+@font-face {
+  font-family: Potato_sans;
+  src: url("../media/Potato_sans_Black-s.p.850b1c25.otf") format("opentype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Potato_sans Fallback;
+  src: local(Arial);
+  ascent-override: 66.03%;
+  descent-override: 11.19%;
+  line-gap-override: 7.87%;
+  size-adjust: 114.34%;
+}
+
+.potato_sans_9dffb9d9-module__wW2Q6q__className {
+  font-family: Potato_sans, Potato_sans Fallback;
+}
+
+.potato_sans_9dffb9d9-module__wW2Q6q__variable {
+  --font-potato_sans: "Potato_sans", "Potato_sans Fallback";
+}
+
+
+/* [project]/src/components/AllOfMySkills/potato_sans_396046df.module.css [app-client] (css) */
+@font-face {
+  font-family: Potato_sans;
+  src: url("../media/Potato_sans_Black-s.p.850b1c25.otf") format("opentype");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Potato_sans Fallback;
+  src: local(Arial);
+  ascent-override: 66.03%;
+  descent-override: 11.19%;
+  line-gap-override: 7.87%;
+  size-adjust: 114.34%;
+}
+
+.potato_sans_396046df-module__Ja1oNW__className {
+  font-family: Potato_sans, Potato_sans Fallback;
+}
+
+.potato_sans_396046df-module__Ja1oNW__variable {
+  --font-potato_sans: "Potato_sans", "Potato_sans Fallback";
+}
+
+
+/* [project]/src/components/AllOfMySkills/supermarker_2d7c8382.module.css [app-client] (css) */
+@font-face {
+  font-family: SuperMarker;
+  src: url("../media/SuperBlackMarker-s.p.b3927d53.ttf") format("truetype");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: SuperMarker Fallback;
+  src: local(Arial);
+  ascent-override: 87.98%;
+  descent-override: 22.27%;
+  line-gap-override: 0.0%;
+  size-adjust: 108.2%;
+}
+
+.supermarker_2d7c8382-module__NghIUG__className {
+  font-family: SuperMarker, SuperMarker Fallback;
+}
+
+.supermarker_2d7c8382-module__NghIUG__variable {
+  --font-super: "SuperMarker", "SuperMarker Fallback";
+}
+
+
+/*# sourceMappingURL=src_f7138e76._.css.map*/
