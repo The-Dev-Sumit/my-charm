@@ -51,8 +51,8 @@ const wingly = Local({
 
 interface Project {
   projectId: string;
-  buttonUrl?: string;
-  videoUrl?: string;
+  buttonUrl: string;
+  videoUrl: string;
   title: string;
   thumbnail: string;
   description: string;
@@ -248,7 +248,7 @@ const ProjectDetails = ({ project }: { project: Project }) => {
                     ? project.link
                     : project.projectId === "codesnap-software"
                     ? codesnapLink?.download
-                    : undefined
+                    : ""
                 }
                 text={project.linkText || ""}
               />

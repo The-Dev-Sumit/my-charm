@@ -13,6 +13,7 @@ import { projects } from "@/data/projectdata";
 import Link from "next/link";
 import Image from "next/image";
 import Footer from "@/components/Footer/Footer";
+import type { Project } from "@/data/projectdata";
 
 const adventureFont = Local({
   src: [
@@ -115,7 +116,7 @@ export default function Home() {
             />
           </div>
           <div>
-            {projects.map((project: unknown, index) => (
+            {projects.map((project: Project, index) => (
               <div key={index} className="-rotate-3 py-4">
                 <h2
                   className={`text-[1.3rem] text-shadow-sm text-shadow-green-800 tracking-wider text-amber-300 font-bold px-3 ${Potato_sans.className}`}
@@ -162,7 +163,7 @@ export default function Home() {
           </div>
 
           <div>
-            {projects.map((project: unknown, index) => (
+            {projects.map((project: Project, index) => (
               <div key={index} className="-rotate-3 md:py-4 xl:py-12">
                 <h2
                   className={`md:text-[2.1rem] xl:text-[2.7rem] text-shadow-sm text-shadow-green-800 tracking-wider text-amber-300 font-bold md:px-8 xl:px-12 ${Potato_sans.className}`}

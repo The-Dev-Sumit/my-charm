@@ -1,8 +1,8 @@
 
 export interface Project {
   projectId: string;
-  buttonUrl?: string;
-  videoUrl?: string;
+  buttonUrl: string;
+  videoUrl: string;
   title: string;
   thumbnail: string;
   description: string;
