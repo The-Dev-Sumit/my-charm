@@ -1,6 +1,19 @@
 
+export interface Project {
+  projectId: string;
+  buttonUrl?: string;
+  videoUrl?: string;
+  title: string;
+  thumbnail: string;
+  description: string;
+  shortDescription?: string;
+  link?: string;
+  linkText?: string;
+  date: string;
+  lastUpdated?: string;
+}
 
- export const projects = [
+ export const projects: Project[] = [
    {
      projectId: "first-frontend",
      title: "Frontend Website",
@@ -70,8 +83,9 @@
      title: "UIVORA",
      buttonUrl:
        "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1749469561/arrow6_1_p0qaw6.png",
-     videoUrl:
-       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1745854135/uivora_view_yibqds.png",
+     videoUrl: "https://drive.google.com/uc?export=download&id=1hCkQAOiC_xXLfjjbfwZ-NVH6AHlkoXBJ",
+       
+      thumbnail: "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1745854135/uivora_view_yibqds.png",
      description:
        "UIVORA is my first Next.js project — an open-source library where you can create and share custom UI elements for websites, and also contribute your own to help the community grow.",
      shortDescription: "UIVORA is my first - an open-source library",
@@ -80,3 +94,5 @@
      date: "Date: 27-04-2025",
    },
  ];
+
+ 

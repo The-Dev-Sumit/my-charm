@@ -3,20 +3,9 @@
 import ProjectDetails from "@/components/ProjectDetails/ProjectDetails";
 import { useParams } from "next/navigation";
 import { projects } from "@/data/projectdata";
+import type { Project } from "@/data/projectdata";
 
-interface Project {
-  projectId: string;
-  buttonUrl?: string;
-  videoUrl?: string;
-  title: string;
-  thumbnail: string;
-  description: string;
-  shortDescription?: string;
-  link?: string;
-  linkText?: string;
-  date: string;
-  lastUpdated?: string;
-}
+
 
 const MyWorks = () => {
     const params = useParams();

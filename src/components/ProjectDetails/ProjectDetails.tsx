@@ -60,7 +60,7 @@ interface Project {
   link?: string;
   linkText?: string;
   date: string;
-  lastUpdated?: undefined;
+  lastUpdated?: string;
 }
 
 interface ProjectLinks {
