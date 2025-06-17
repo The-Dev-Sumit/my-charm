@@ -1,0 +1,428 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Adventure";
+  src: url("/fonts/Adventure.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+/* In globals.css or a dedicated layout CSS file */
+body {
+  background-color: #b00404;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.glowing-container {
+  position: relative;
+  background-color: #c80505;
+  border-radius: 15px;
+  box-shadow: 0 0 50px 20px rgba(255, 0, 0, 0.4);
+  z-index: 1;
+  overflow: hidden;
+}
+
+/* Optional: Using a pseudo-element for a more diffused glow */
+.glowing-container::before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  left: -20%;
+  right: -20%;
+  bottom: -20%;
+  background: radial-gradient(circle, rgba(194, 1, 1, 0.3) 0%, transparent 60%);
+  filter: blur(80px); /* Adjust blur for diffusion */
+  z-index: -1; /* Place behind the main content */
+  animation: pulse-glow 3s infinite alternate;
+}
+
+@keyframes pulse-glow {
+  from {
+    transform: scale(0.95);
+    opacity: 0.7;
+  }
+  to {
+    transform: scale(1.05);
+    opacity: 1;
+  }
+}
+
+.text-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.animated-letter {
+  display: inline-block;
+  opacity: 0;
+  transform: translateY(20px) scale(0.8);
+  animation: popIn 0.6s ease-out forwards;
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0.7);
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-5px) scale(1.05);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.dropping-texts {
+  display: inline-block;
+  width: 100%;
+  display: flex;
+}
+
+.dropping-texts > div {
+  opacity: 0;
+  position: absolute;
+}
+
+.dropping-texts > div:nth-child(1) {
+  animation: roll 5s linear infinite 0s;
+}
+.dropping-texts > div:nth-child(2) {
+  animation: roll 5s linear infinite 1s;
+}
+.dropping-texts > div:nth-child(3) {
+  animation: roll 5s linear infinite 2s;
+}
+.dropping-texts > div:nth-child(4) {
+  animation: roll2 5s linear infinite 3s;
+}
+
+@keyframes roll {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-top: 0px;
+    transform: rotate(-25deg);
+  }
+  3% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  5% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  20% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: rotate(0deg);
+  }
+  27% {
+    font-size: 0px;
+    opacity: 0.5;
+    margin-left: 20px;
+    margin-top: 100px;
+  }
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes roll2 {
+  0% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    transform: rotate(-25deg);
+  }
+  3% {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+  5% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+  30% {
+    font-size: inherit;
+    opacity: 1;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: rotate(0deg);
+  }
+  37% {
+    font-size: 1500px;
+    opacity: 0;
+    margin-left: -1000px;
+    margin-top: -800px;
+  }
+  100% {
+    font-size: 0px;
+    opacity: 0;
+    margin-left: -30px;
+    margin-top: 0px;
+    transform: rotate(15deg);
+  }
+}
+
+@keyframes bg {
+  0% {
+    background: #ff0075;
+  }
+  3% {
+    background: #0094ff;
+  }
+  20% {
+    background: #0094ff;
+  }
+  23% {
+    background: #b200ff;
+  }
+  40% {
+    background: #b200ff;
+  }
+  43% {
+    background: #8bc34a;
+  }
+  60% {
+    background: #8bc34a;
+  }
+  63% {
+    background: #f44336;
+  }
+  80% {
+    background: #f44336;
+  }
+  83% {
+    background: #f44336;
+  }
+  100% {
+    background: #f44336;
+  }
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.animation {
+  height: 60px;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.animation > div > div {
+  height: 3rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+.animation div:first-child {
+  animation: text-animation 8s infinite;
+}
+
+@keyframes text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -5.62rem;
+  }
+  30% {
+    margin-top: -5.62rem;
+  }
+  40% {
+    margin-top: -11.24rem;
+  }
+  60% {
+    margin-top: -11.24rem;
+  }
+  70% {
+    margin-top: -5.62rem;
+  }
+  80% {
+    margin-top: -5.62rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.container-md {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.animation-md {
+  height: 1.7rem;
+  overflow: hidden;
+  margin-left: 0.5rem;
+}
+
+.animation-md > div > div {
+  height: 3rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+.animation-md div:first-child {
+  animation: md-text-animation 9s infinite;
+}
+
+@keyframes md-text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -6rem;
+  }
+  30% {
+    margin-top: -6rem;
+  }
+  40% {
+    margin-top: -12rem;
+  }
+  60% {
+    margin-top: -12rem;
+  }
+  70% {
+    margin-top: -18rem;
+  }
+  80% {
+    margin-top: -18rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.container-lg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.animation-lg {
+  height: 2.3rem;
+  overflow: hidden;
+  margin-left: 1rem;
+}
+
+.animation-lg > div > div {
+  height: 3rem;
+  margin-bottom: 3rem;
+  display: inline-block;
+}
+
+.animation-lg div:first-child {
+  animation: lg-text-animation 9s infinite;
+}
+
+@keyframes lg-text-animation {
+  0% {
+    margin-top: 0;
+  }
+  10% {
+    margin-top: 0;
+  }
+  20% {
+    margin-top: -6rem;
+  }
+  30% {
+    margin-top: -6rem;
+  }
+  40% {
+    margin-top: -12rem;
+  }
+  60% {
+    margin-top: -12rem;
+  }
+  70% {
+    margin-top: -18rem;
+  }
+  80% {
+    margin-top: -18rem;
+  }
+  90% {
+    margin-top: 0;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.react-player__preview {
+  border-radius: 5px;
+}
+
+.viewMobile {
+  background-image: url("https://res.cloudinary.com/dmmzqpfgg/image/upload/v1750005574/4853471_wshzgh.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #0011ff;
+  border-radius: 10px;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: #0000cc;
+}
