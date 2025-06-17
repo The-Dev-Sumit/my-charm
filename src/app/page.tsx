@@ -66,14 +66,13 @@ export default function Home() {
               </span>
             ))}
           </h1>
-          <hr className="h-[2px] -ml-6 w-full border-none bg-yellow-500 rounded-xl -rotate-4 opacity-85 " />
+          <hr className="h-[2px] -ml-6 w-full border-none bg-yellow-500 rounded-xl -rotate-4 opacity-85 " />;
         </div>
       ) : (
         <div className="w-full text-container items-center flex flex-col gap-2">
           <hr className="h-[2px] w-1/2 mt-3 bg-yellow-500 border-none rounded-xl opacity-85" />
           <h1
-            className={`text-3xl md:text-5xl lg:text-6xl text-amber-400 tracking-wider ${adventureFont.className}`}
-          >
+            className={`text-3xl md:text-5xl lg:text-6xl text-amber-400 tracking-wider ${adventureFont.className}`}>
             {AuthorName.split("").map((char, index) => (
               <span
                 key={index}
@@ -114,7 +113,7 @@ export default function Home() {
             />
           </div>
           <div>
-            {projects.map((project: any, index) => (
+            {projects.map((project: unknown, index) => (
               <div key={index} className="-rotate-3 py-4">
                 <h2
                   className={`text-[1.3rem] text-shadow-sm text-shadow-green-800 tracking-wider text-amber-300 font-bold px-3 ${Potato_sans.className}`}

@@ -267,7 +267,7 @@ const MySkills = () => {
                 src={SkillsHeading}
                 alt="comic type heading"
                 fill
-                className="relative "
+                className="relative"
               />
             </div>
             <div className="relative h-56 w-1/2 flex items-center justify-center">

@@ -113,8 +113,7 @@ const ProjectDetails = ({ project }: { project: Project }) => {
           <button
             onClick={() => router.back()}
             title="Back"
-            className="px-2 py-1"
-          >
+            className="px-2 py-1">
             <IoArrowUndo size={30} color="yellow" />
           </button>
           <div className="w-full h-[23rem] flex flex-col space-y-3">

@@ -23,7 +23,7 @@ const MyWorks = () => {
     const projectId = params.projectId as string;
     const project = projects.find((p) => p.projectId === projectId);
 
-    if (!project)  return <div>Project not found</div>;
+    if (!project) return <div>Project not found</div>;
     
 
     // Type assertion to match Project interface
