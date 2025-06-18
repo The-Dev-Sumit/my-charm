@@ -1,7 +1,7 @@
 "use client";
 
 import Local from "next/font/local";
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useMobileHook } from "@/components/useMobileView/useMobileHook";
 import { useTabletHook } from "@/components/useTabView/useTabHook";
 import HeadBody from "@/components/HeadBody/HeadBody";
@@ -14,6 +14,8 @@ import Link from "next/link";
 import Image from "next/image";
 import Footer from "@/components/Footer/Footer";
 import type { Project } from "@/data/projectdata";
+import Loader from "@/components/Loader/Loader";
+import { div } from "framer-motion/client";
 
 const adventureFont = Local({
   src: [
@@ -44,9 +46,27 @@ const MyWorksHeading =
 
 export default function Home() {
   const AuthorName = "Sumit Sonar";
+  const [loading, setLoading] = useState(true)
 
   const isMobile = useMobileHook();
   const isTab = useTabletHook();
+
+  useEffect(() => {
+    const second = setTimeout(() => {
+      setLoading(false);
+    }, 1500);
+  
+    return () => second && clearTimeout(second);
+  }, [loading]);
+
+  if (loading) {
+    return (
+      <div className="min-h-screen w-full flex items-center justify-center">
+        <Loader />
+      </div>
+    );
+  }
+  
 
   return (
     <div className="glowing-container min-h-screen w-full">
