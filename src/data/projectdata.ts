@@ -83,9 +83,11 @@ export interface Project {
      title: "UIVORA",
      buttonUrl:
        "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1749469561/arrow6_1_p0qaw6.png",
-     videoUrl: "https://drive.google.com/uc?export=download&id=1hCkQAOiC_xXLfjjbfwZ-NVH6AHlkoXBJ",
-       
-      thumbnail: "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1745854135/uivora_view_yibqds.png",
+     videoUrl:
+       "https://res.cloudinary.com/dmmzqpfgg/video/upload/v1750228307/Uivora_Promotional_Video_e3sasw.mp4",
+
+     thumbnail:
+       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1745854135/uivora_view_yibqds.png",
      description:
        "UIVORA is my first Next.js project — an open-source library where you can create and share custom UI elements for websites, and also contribute your own to help the community grow.",
      shortDescription: "UIVORA is my first - an open-source library",
