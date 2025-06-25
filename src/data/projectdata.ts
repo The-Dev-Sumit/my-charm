@@ -15,52 +15,21 @@ export interface Project {
 
  export const projects: Project[] = [
    {
-     projectId: "first-frontend",
-     title: "Frontend Website",
+     projectId: "uivora-component-library",
+     title: "UIVORA",
      buttonUrl:
        "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1749468770/Picsart_25-06-09_17-00-30-956_1_i291ko.png",
      videoUrl:
-       "https://res.cloudinary.com/dmmzqpfgg/video/upload/v1744006804/Web_practice_1_-_Google_Chrome_2023-10-12_19-39-39_fmptjb.mp4",
+       "https://res.cloudinary.com/dmmzqpfgg/video/upload/v1750228307/Uivora_Promotional_Video_e3sasw.mp4",
+
      thumbnail:
-       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1744007663/Screenshot_2025-04-07_120346_t1fdsn.png",
+       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1745854135/uivora_view_yibqds.png",
      description:
-       "This is my first frontend website, it is build in html and css and little bit of javascript. This is my first ever project to learn things, from here my journey started.",
-     shortDescription: "This is my first frontend website",
-     link: undefined,
-     linkText: undefined,
-     date: "Date: 12-10-2023",
-   },
-   {
-     projectId: "second-fullstake",
-     title: "Fullstack Website",
-     buttonUrl:
-       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1749468897/20250609_161426-removebg-preview_1_q3opj4.png",
-     videoUrl:
-       "https://res.cloudinary.com/dmmzqpfgg/video/upload/v1744007384/Welcome_TGS_-_Google_Chrome_2024-01-28_20-53-07_hjgscy.mov",
-     thumbnail:
-       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1744008031/Screenshot_2025-04-07_121010_ooc2tq.png",
-     description:
-       "This is my second fullstack website, using html, css and javascript with database and backend, this project i made before our exams, a basic test portal type project, which my friends used. I know it is childish but I fun with whatever i do.",
-     shortDescription: "This is my second fullstack website",
-     link: undefined,
-     linkText: undefined,
-     date: "Date: 28-01-2024",
-   },
-   {
-     projectId: "snake-game",
-     title: "A Snake Game",
-     buttonUrl:
-       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1749469041/arrow3_1_pdswb4.png",
-     videoUrl:
-       "https://res.cloudinary.com/dmmzqpfgg/video/upload/v1744006812/20250114153652_epobb2.mp4",
-     thumbnail:
-       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1744008176/Screenshot_2025-04-07_121236_drh7bk.png",
-     description:
-       "This is my third project and first game using java language for the first time, this is a basic Snake Game, i wanted to try something new.",
-     shortDescription: "This is my first game using java",
-     link: undefined,
-     linkText: undefined,
-     date: "Date: 03-02-2024",
+       "UIVORA is my first Next.js project — an open-source library where you can create and share custom UI elements for websites, and also contribute your own to help the community grow.",
+     shortDescription: "UIVORA - an open-source library",
+     link: "https://uivora.vercel.app/",
+     linkText: "UIVORA",
+     date: "Date: 27-04-2025",
    },
    {
      projectId: "codesnap-software",
@@ -79,21 +48,52 @@ export interface Project {
      lastUpdated: "Last Updated: 11-05-2025",
    },
    {
-     projectId: "uivora-component-library",
-     title: "UIVORA",
+     projectId: "snake-game",
+     title: "A Snake Game",
+     buttonUrl:
+       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1749469041/arrow3_1_pdswb4.png",
+     videoUrl:
+       "https://res.cloudinary.com/dmmzqpfgg/video/upload/v1744006812/20250114153652_epobb2.mp4",
+     thumbnail:
+       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1744008176/Screenshot_2025-04-07_121236_drh7bk.png",
+     description:
+       "This is my third project and first game using java language for the first time, this is a basic Snake Game, i wanted to try something new.",
+     shortDescription: "This is my first game using java",
+     link: undefined,
+     linkText: undefined,
+     date: "Date: 03-02-2024",
+   },
+   {
+     projectId: "second-fullstake",
+     title: "Fullstack Website",
+     buttonUrl:
+       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1749468897/20250609_161426-removebg-preview_1_q3opj4.png",
+     videoUrl:
+       "https://res.cloudinary.com/dmmzqpfgg/video/upload/v1744007384/Welcome_TGS_-_Google_Chrome_2024-01-28_20-53-07_hjgscy.mov",
+     thumbnail:
+       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1744008031/Screenshot_2025-04-07_121010_ooc2tq.png",
+     description:
+       "This is my second fullstack website, using html, css and javascript with database and backend, this project i made before our exams, a basic test portal type project, which my friends used. I know it is childish but I fun with whatever i do.",
+     shortDescription: "This is my first fullstack website",
+     link: undefined,
+     linkText: undefined,
+     date: "Date: 28-01-2024",
+   },
+   {
+     projectId: "first-frontend",
+     title: "Frontend Website",
      buttonUrl:
        "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1749469561/arrow6_1_p0qaw6.png",
      videoUrl:
-       "https://res.cloudinary.com/dmmzqpfgg/video/upload/v1750228307/Uivora_Promotional_Video_e3sasw.mp4",
-
+       "https://res.cloudinary.com/dmmzqpfgg/video/upload/v1744006804/Web_practice_1_-_Google_Chrome_2023-10-12_19-39-39_fmptjb.mp4",
      thumbnail:
-       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1745854135/uivora_view_yibqds.png",
+       "https://res.cloudinary.com/dmmzqpfgg/image/upload/v1744007663/Screenshot_2025-04-07_120346_t1fdsn.png",
      description:
-       "UIVORA is my first Next.js project — an open-source library where you can create and share custom UI elements for websites, and also contribute your own to help the community grow.",
-     shortDescription: "UIVORA is my first - an open-source library",
-     link: "https://uivora.vercel.app/",
-     linkText: "UIVORA",
-     date: "Date: 27-04-2025",
+       "This is my first frontend website, it is build in html and css and little bit of javascript. This is my first ever project to learn things, from here my journey started.",
+     shortDescription: "This is my first frontend website",
+     link: undefined,
+     linkText: undefined,
+     date: "Date: 12-10-2023",
    },
  ];
 

@@ -145,11 +145,14 @@ export default function Home() {
                 </h2>
                 <div className="flex justify-between items-end w-full">
                   <p
-                    className={`text-md tracking-wide text-amber-400  font-semibold px-2 w-80`}
+                    className={`text-sm tracking-wide text-amber-400 leading-4 font-semibold px-2 w-64`}
                   >
                     {project.shortDescription}
                   </p>
-                  <Link href={`/${project.projectId}`} className=" w-28 px-1">
+                  <Link
+                    href={`/${project.projectId}`}
+                    className="absolute right-3"
+                  >
                     <Image
                       src={project.buttonUrl}
                       alt="arrow buttons"
@@ -184,19 +187,22 @@ export default function Home() {
 
           <div>
             {projects.map((project: Project, index) => (
-              <div key={index} className="-rotate-3 md:py-4 xl:py-12">
+              <div key={index} className="relative -rotate-3 md:py-4 xl:py-12">
                 <h2
                   className={`md:text-[2.1rem] xl:text-[2.7rem] text-shadow-sm text-shadow-green-800 tracking-wider text-amber-300 font-bold md:px-8 xl:px-12 ${Potato_sans.className}`}
                 >
                   {project.title}
                 </h2>
-                <div className="flex justify-between items-end w-full md:px-10 xl:px-28">
+                <div className="flex justify-between items-end w-full md:px-10 xl:px-20">
                   <p
                     className={`md:text-lg xl:text-xl tracking-wide text-amber-400  font-semibold md:px-4 md:w-[28rem] xl:w-[34rem]`}
                   >
                     {project.shortDescription}
                   </p>
-                  <Link href={`/${project.projectId}`} className="md:w-32">
+                  <Link
+                    href={`/${project.projectId}`}
+                    className="absolute right-10"
+                  >
                     <div className="lg:h-[6rem] lg:w-[7rem] xl:h-[7rem] xl:w-[9rem] active:scale-95">
                       <Image
                         src={project.buttonUrl}
